@@ -3,7 +3,7 @@ import cors from 'cors';
 import studentRoutes from './routes/student.routes';
 import courseRoutes from './routes/course.routes';
 import enrollmentRoutes from './routes/enrollment.routes';
-import { errorHandler } from './middlewares/error.middleware';
+import { errorHandler } from './model/error.middleware';
 
 export const createApp = (): Application => {
   const app = express();
