@@ -1,6 +1,7 @@
 import { Database } from '../config/database';
 import { IStudent, IStudentCreate, IStudentUpdate } from '../interfaces/student.interface';
 
+// This model manages student records and their CRUD operations.
 export class StudentModel {
   private db = Database.getInstance();
 
